@@ -1,0 +1,139 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #F0F0F0;
+  color: #070606;
+}
+
+/* Container styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  background-color: #fff; /* 白色背景 */
+  color: #d5c9c9;
+  padding: 5px 0;
+  text-align: left;
+}
+
+header img {
+  width: 190px; /* 調整 logo 寬度 */
+  height: 66px; /* 讓 logo 按比例縮放 */
+}
+
+.container {
+  text-align: center;
+}
+
+/* Login box styles */
+.login-box {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(236, 235, 235, 0.1);
+  padding: 20px;
+  max-width: 565px;
+  margin: 0 auto;
+}
+
+.login-box h2 {
+  margin-bottom: 20px;
+}
+
+.login-box label {
+  display: block;
+  color: #a71111; /* 調整文字顏色 */
+}
+
+.login-box input {
+  width: 70%;
+  padding: 10px; /* 調整內部填充 */
+  margin-bottom: 10px; /* 添加一些底部間距 */
+  border: 1px solid #ccc; /* 添加邊框 */
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  color: #951010; /* 調整輸入文字顏色 */
+}
+
+
+.verification-code {
+  position: relative;
+}
+
+.verification-code input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.verification-code button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.forgot-password {
+  color: #007bff; /* 忘記密碼文字的顏色 */
+  margin-left: 450px;
+  text-decoration: none;
+}
+
+.login-button {
+  width: 70%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.password-advice {
+  font-size: 14px; /* 調整字體大小 */
+  color: #EC6E40; /* 設置為紅色 */
+  margin-right: 145px;
+  margin-bottom: 10px; /* 添加底部間距 */
+}
+.other {
+  font-size: 14px; /* 調整字體大小 */
+  color: #979595; /* 設置為紅色 */
+  margin-bottom: 10px; /* 添加底部間距 */
+}
+.icon-ec {
+  margin-right: 240px;
+  width: 130px; /* 根據需要調整圖片大小 */
+  height: auto;
+}
+.web-me {
+  margin-top: 0px;
+  bottom: 10px;
+  width: 150px; /* 根據需要調整圖片大小 */
+  height: auto;
+}
+.new {
+  width: 70%;
+  padding: 10px;
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid #007bff; /* 添加邊框 */
+}

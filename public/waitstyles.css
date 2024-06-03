@@ -1,0 +1,59 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #F0F0F0;
+    color: #070606;
+  }
+  
+  /* Container styles */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #fff; /* 白色背景 */
+    color: #d5c9c9;
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  header img {
+    width: 190px; /* 調整 logo 寬度 */
+    height: 66px; /* 讓 logo 按比例縮放 */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .wait-image {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    width: 550px; /* 調整圖片寬度 */
+    height: auto; /* 保持圖片比例 */
+  }
+  .text {
+    padding: 40px 0;
+    text-align: center;
+  }
+
+  .text_back {
+    padding: 40px 0;
+    color: #680aab;
+    text-align: center;
+    font-size: 24px;
+  }
+
+  

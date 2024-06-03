@@ -1,0 +1,1 @@
+db.all('SELECT * FROM NaturalGasPrices WHERE year BETWEEN ? AND ?', [startYear, endYear], (err, rows) => {
