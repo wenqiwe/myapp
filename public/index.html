@@ -23,16 +23,15 @@
             })
             .then(response => {
                 if (response.ok) {
-                    // 请求成功，跳转到等待页面
                     window.location.href = 'wait_page.html';
                 } else {
-                    // 请求失败，显示错误信息
-                    alert('登录失败，请重试！');
+                    // 顯示錯誤
+                    alert('登入失敗');
                 }
             })
             .catch(error => {
                 console.error('Error:', error);
-                alert('登录失败，请重试！');
+                alert('登入失敗');
             });
         }
         function showAlert() {
